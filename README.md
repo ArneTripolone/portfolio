@@ -11,10 +11,13 @@ One of the biggest challenges with creating this website was image sizing and th
 I was hoping to attach an image without a background, but this didn’t seem to be possible for me. 
 Another challenge was accepting the size of the css file which seems to be bigger than Ben Our, although it wasn’t possible for me to reduce it.
 
-### Screenshots:
+### Screenshots
+#### HTML:
+![](images/html-screenshot.png)
 
-HTML:
-
-
-CSS:
-
+#### CSS:
+![](images/css-screenshot-1.png)
+![](images/css-screenshot-2.png)
+![](images/css-screenshot-3.png)
+![](images/css-screenshot-4.png)
+![](images/css-screenshot-5.png)
