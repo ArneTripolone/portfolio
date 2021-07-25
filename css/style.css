@@ -296,11 +296,12 @@ input[type=submit]:hover {
 	* {
 		box-sizing: border-box;
 	}
-	.arne {
+	/*.arne {
 		height: 350px;
 		left: 90%;
 		transform: translateX(-90%);
 	}
+	*/
 	.text-container {
 		top:46%;
 	}
@@ -348,6 +349,7 @@ input[type=submit]:hover {
 	}
 	.contact-me p {
 		font-size: 26px;
+
 	}
 	.contact-me button {
 		font-size: 14px;

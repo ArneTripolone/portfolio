@@ -26,12 +26,18 @@
         <p>Thank you for visiting</p>
         <p>Arne Tripolone</p>
         <p>Currently upskilling in<br>web development</p>
-        <button class="hire-btn">Hire me</button>
-        <button class="down-cv">Download</button>
-        </div>  
-    <!--img of Arne-------------------->
-        <img src="images/Arne Tripolone.png" class="arne" alt="Arne with a violin">    
-
+        <form action="https://github.com/ArneTripolone">
+            <input type="submit" value="Github Profile" />
+        </form>
+        <br>
+        <form action="https://www.linkedin.com/in/arnetripolone/">
+            <input type="submit" value="LinkedIn Profile" />
+        </form>
+        </div>
+        <!--img of Arne-------------------->
+        <!--<aside>
+            <img src="images/Arne Tripolone.png" class="arne" alt="Arne with a violin">    
+        </aside>-->  
     </section>
     <!--about section----------------->
     <div class="about-container"> 
@@ -41,11 +47,9 @@
         <div class="about-text">
         <p><a name="about"></a> About me</p>
         <p>Learning how to code</p>
-        <p>Hello, I'm Arne Tripolone. I have been teaching and performing the violin in Sydney Australia for the last 10 years. Now I'm looking to expand my skills and gradually branch into web development</p>
-        <!--button----------------------->
-        <button class="h">Hire me</button>
-        <button>Download CV</button>
-        </div>
+        <p>Hello, I'm Arne Tripolone. I have been teaching and performing the violin in Sydney Australia for the last 10 years. Now I'm looking to expand my skills and prepare for future work demands by gradually branching into web development.</p>
+        <button type="submit" class="down-cv" onclick="window.open('images/Resume.pdf')">Download CV</button>
+    </div>
     </div>
   <!--Work Examples---------------------------->
   <div class="work-examples">
@@ -57,28 +61,35 @@
     <!--1------------->
         <div class="box-1">
         <span>1</span>
-        <p class="heading">Web Design Examples</p>
-        <p class="details">If you would like me to build your website, contact me after the Trilogy/USYD Coding Bootcamp!</p>
-        <button>Read More</button>
+        <p class="heading">Covid-19-Tracker App</p>
+        <p class="details">Click below to see a Covid app created in conjunction with with Salvo Dragotta, Ronin Hietanen and Londiwe Dube.</p>
+        <form action="https://mm-salvodragotta.github.io/Covid-19-Tracker/">
+            <input type="submit" value="Go to Covid-19-Tracker" />
+        </form>
         </div>
    <!--2------------->
         <div class="box-2">
         <span>2</span>
-        <p class="heading">Web Development Examples</p>
-        <p class="details">If you would like me to build your website, contact me after the Trilogy/USYD Coding Bootcamp!</p>
-        <button>Read More</button>
+        <p class="heading">Work Scheduler</p>
+        <p class="details">Click below to see an app I have built to help notate and keep track of your tasks throughout the workday!</p>
+        <form action="https://arnetripolone.github.io/work_schedule_app/">
+            <input type="submit" value="Work Scheduler App" />
+        </form>
         </div>
     <!--3------------->
         <div class="box-3">
         <span>3</span>
-        <p class="heading">SEO Examples</p>
-        <p class="details">If you would like me to build your website, contact me after the Trilogy/USYD Coding Bootcamp!</p>
-        <button>Read More</button>
+        <p class="heading">Weather Dashboard</p>
+        <p class="details">Click below to see my weather dashboard app which displays weather API data for current day + a 5 day forecast</p>
+        <form action="https://arnetripolone.github.io/weather_dashboard/">
+            <input type="submit" value="Weather Dashboard App" />
+        </form>
         </div>
     </div>
 </div>
 
 <p id=contactme>Contact Me</p>
+
 <div class="container">
   <form action="/action_page.php">
     <a name="contact"></a>
