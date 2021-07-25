@@ -1,5 +1,7 @@
 # Portfolio Homework
 
+## Link to Deployed Site: https://arnetripolone.github.io/portfolio-homework/
+
 ### Description:
 This repository contains Arne Tripolone’s portfolio website. This is created with HTML and CSS covered in the Bootcamp so far. 
 Much of the design was sourced from You-Tube Chanel ‘Going-To Internet’, specifically the video tutorial: ‘How To Create A Complete Personal Portfolio Website Just using HTML And CSS | Pure HTML And CS’ (https://www.youtube.com/watch?v=KgRENOnSCxE). 
@@ -13,11 +15,4 @@ Another challenge was accepting the size of the css file which seems to be bigge
 
 ### Screenshots
 #### HTML:
-![](images/html-screenshot.png)
-
-#### CSS:
-![](images/css-screenshot-1.png)
-![](images/css-screenshot-2.png)
-![](images/css-screenshot-3.png)
-![](images/css-screenshot-4.png)
-![](images/css-screenshot-5.png)
+![](images/portfolio_homework.gif)
