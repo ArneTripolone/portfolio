@@ -13,6 +13,6 @@ One of the biggest challenges with creating this website was image sizing and th
 I was hoping to attach an image without a background, but this didn’t seem to be possible for me. 
 Another challenge was accepting the size of the css file which seems to be bigger than Ben Hur, although it wasn’t possible for me to reduce it. The Google Inspector was very useful for this task, to see what elements were being affected by css.
 
-### Screenshots
-#### HTML:
+### Gif of Deployed Site
+####
 ![](images/portfolio_homework.gif)
