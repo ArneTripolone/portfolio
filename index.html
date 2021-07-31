@@ -1,116 +1,51 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Arne Tripolone Portfolio</title>
-<link rel="stylesheet" type="text/css" href="css/style.css" />
-</head>
-
-<body>   
-</body>
-    <section>
-    <!--navigation--------------------->
-        <nav>
-        <!--logo-->
-        <a href="#" class="logo">Arne Tripolone</a>
-        <!--menu-->
-        <ul>
-        <li><a href="#" class="active">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#work">Work Examples</a></li>
-        <li><a href="#contact">Contact</a></li>
-        </ul>
-        </nav>
-    <!--text--------------------------->
-        <div class="text-container">
-        <p>Thank you for visiting</p>
-        <p>Arne Tripolone</p>
-        <p>Currently upskilling in<br>web development</p>
-        <form action="https://github.com/ArneTripolone">
-            <input type="submit" value="Github Profile" />
-        </form>
-        <br>
-        <form action="https://www.linkedin.com/in/arnetripolone/">
-            <input type="submit" value="LinkedIn Profile" />
-        </form>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"
+      ></script>
+        <link
+          rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+          crossorigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="stylesheet" href="assets/style.css" />
+        <title>Arne Tripolone Portfolio</title>
+      </head>
+      <!--Navigation Bar-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#">About</a>
+            <a class="nav-item nav-link" href="#">Work Examples</a>
+            <a class="nav-item nav-link" href="#">Contact</a>
+          </div>
         </div>
-        <!--img of Arne-------------------->
-        <!--<aside>
-            <img src="images/Arne Tripolone.png" class="arne" alt="Arne with a violin">    
-        </aside>-->  
-    </section>
-    <!--about section----------------->
-    <div class="about-container"> 
-    <!--img--------------------------->
-        <img src="images/about.jpg">
-    <!--about text-------------------->
-        <div class="about-text">
-        <p><a name="about"></a> About me</p>
-        <p>Learning how to code</p>
-        <p>Hello, I'm Arne Tripolone. I have been teaching and performing the violin in Sydney Australia for the last 10 years. Now I'm looking to expand my skills and prepare for future work demands by gradually branching into web development.</p>
-        <button type="submit" class="down-cv" onclick="window.open('images/Resume.pdf')">Download CV</button>
-    </div>
-    </div>
-  <!--Work Examples---------------------------->
-  <div class="work-examples">
-    <!--text-->
-    <div class="work-examples-text">
-        <p><a name="work"></a>Work Examples</p>
-    </div>
-    <div class="box-container">
-    <!--1------------->
-        <div class="box-1">
-        <span>1</span>
-        <p class="heading">Covid-19-Tracker App</p>
-        <p class="details">Click below to see a Covid app created in conjunction with with Salvo Dragotta, Ronin Hietanen and Londiwe Dube.</p>
-        <form action="https://mm-salvodragotta.github.io/Covid-19-Tracker/">
-            <input type="submit" value="Go to Covid-19-Tracker" />
-        </form>
-        </div>
-   <!--2------------->
-        <div class="box-2">
-        <span>2</span>
-        <p class="heading">Work Scheduler</p>
-        <p class="details">Click below to see an app I have built to help notate and keep track of your tasks throughout the workday!</p>
-        <form action="https://arnetripolone.github.io/work_schedule_app/">
-            <input type="submit" value="Work Scheduler App" />
-        </form>
-        </div>
-    <!--3------------->
-        <div class="box-3">
-        <span>3</span>
-        <p class="heading">Weather Dashboard</p>
-        <p class="details">Click below to see my weather dashboard app which displays weather API data for current day + a 5 day forecast</p>
-        <form action="https://arnetripolone.github.io/weather_dashboard/">
-            <input type="submit" value="Weather Dashboard App" />
-        </form>
-        </div>
-    </div>
-</div>
-
-<p id=contactme>Contact Me</p>
-
-<div class="container">
-  <form action="/action_page.php">
-    <a name="contact"></a>
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-  </form>
-</div>
+      </nav>
+      <!--Headshot-->
+      <img id="headshot" src="images/arnetripolonehead.png" class="img-fluid rounded float-left" alt="Responsive image">
+      
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/locale/da.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script defer src="assets/script.js"></script>
+<body>  
 </body>
 </html>
