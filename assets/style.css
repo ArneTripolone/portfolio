@@ -1,15 +1,19 @@
+#home {
+    justify-content: center;
+}
+
 #headshot {
     width: 30%;
 }
 
 #covid {
-    opacity: 0.2;
+    opacity: 0.15;
 }
 
 #work {
-    opacity: 0.2;
+    opacity: 0.15;
 }
 
 #weather {
-    opacity: 0.2;
+    opacity: 0.15;
 }
