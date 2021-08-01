@@ -112,27 +112,25 @@
         <div id="contactme" class="container-fluid">
             <h3>Contact Me</h3>
             <p>If you would like to get in contact with me about anything to do with Web Development, please feel free to reach out to me:</p>
-            <form action="https://www.linkedin.com/in/arnetripolone/">
-                <input type="submit" value="LinkedIn Profile" />
-            </form>
-            <br>
-            <form action="https://github.com/ArneTripolone">
-                <input type="submit" value="GitHub Profile" />
-            </form>
-            <br>
-            <form action="mailto:arnetripolone@gmail.com">
-                <input type="submit" value="Email" />
-            </form>
-            <br>
-            <form>
-            <button type="submit" class="down-cv" onclick="window.open('images/Resume.pdf')">Download CV</button>
-            </form>
-            <br>
-            <a href="tel:+61 438 485 061">Call me at +61 438 485 061</a>
-            <br>
-            <br>
-            <br>
-        </div>   
+            <div class="btn-group-vertical" role="group" aria-label="Basic radio toggle button group">
+                <input onClick="location.href='https://www.linkedin.com/in/arnetripolone/'" type="radio" class="btn-check btn-link" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                <label class="btn btn-outline-primary" for="btnradio1">LinkedIn</label>
+              
+                <input onClick="location.href='https://github.com/ArneTripolone'" type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio2">GitHub</label>
+              
+                <input onClick="location.href='mailto:arnetripolone@gmail.com'" type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio3">Email</label>
+
+                <input onClick="location.href='tel:+61 438 485 061'" type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio4">Phone</label>
+
+                <input onclick="window.open('images/Resume.pdf')" type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio5">CV</label>
+              </div>
+              <br>
+              <br>
+        </div>
     </body>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
